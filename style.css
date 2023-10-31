@@ -1,0 +1,152 @@
+/* Body Setup */
+
+body {
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    width: 100dvw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Navbar Css Below */
+
+.navbar {
+    height: 100%;
+    width: 250px;
+    background-color: black;
+    color: white;
+    display: grid;
+    position: absolute;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+    left: -300px;
+}
+
+.menuonmain:hover {
+    cursor: pointer;
+}
+
+.navhead,
+.home,
+.profile,
+.messages,
+.history,
+.tasks,
+.communities,
+.settings,
+.support,
+.privacy {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+    width: 75%;
+    height: 50%;
+}
+
+.navbaractive {
+    left: 0;
+}
+
+.dashboard {
+    position: relative;
+    right: -95%;
+    bottom: 10%;
+}
+
+.menuonmain {
+    position: absolute;
+}
+
+/* The below code handles the header and main css */
+
+.maincontentholder {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+    box-shadow: 0 0 2px 0 black;
+}
+
+.searchbar {
+    height: 30%;
+    width: 70%;
+    position: relative;
+    top: 25%;
+    right: -45%;
+    border-radius: 15px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.account {
+    height: 30%;
+    width: 60%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    right: -50%;
+}
+
+.headerplace {
+    position: relative;
+    right: -40%;
+}
+
+button {
+    width: 10%;
+    height: 36%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: -15%;
+    right: -50%;
+    margin: 4px;
+}
+
+.homebtns {
+    height: 100%;
+}
+
+.homename {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: -5%;
+    right: -40%;
+}
+
+.homediv {
+    display: grid;
+}
+
+.h2,
+.gribbet {
+    position: relative;
+    margin: 0;
+    top: -15%;
+}
+
+.accname {
+    font-size: 18px;
+    position: relative;
+    right: 5%;
+}
+
+.homeimg {
+    position: relative;
+    right: -40%;
+    bottom: 20%;
+}
